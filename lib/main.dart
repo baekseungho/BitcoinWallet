@@ -27,7 +27,7 @@ class App extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(
-                height: 80,
+                height: 40,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -55,7 +55,7 @@ class App extends StatelessWidget {
                 ],
               ),
               const SizedBox(
-                height: 120,
+                height: 100,
               ),
               Text(
                 'Total Balance',
@@ -94,6 +94,8 @@ class App extends StatelessWidget {
                 height: 100,
               ),
               Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Text('Wallets',
                       style: TextStyle(
@@ -109,7 +111,10 @@ class App extends StatelessWidget {
                     ),
                   ),
                 ],
-              )
+              ),
+              const SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
