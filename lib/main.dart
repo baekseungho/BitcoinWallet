@@ -9,8 +9,8 @@ class Player {
 }
 
 void main() {
-  var nico = Player();
-  nico.name;
+  var seungho = Player();
+  seungho.name;
   runApp(const App());
 }
 
